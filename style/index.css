@@ -1,0 +1,251 @@
+body{
+   
+    
+    background-image: url(img/logo.png) ;
+     background-position: 4% 5% !important ;
+    background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: 12.2em 12.2em;
+    background-color: black;
+    color: #fff;
+    min-height: 100vh;
+/*display: flex;*/
+    
+/*
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    
+*/
+}
+.topLI{
+    float: left;
+}
+.leftLi{
+    float: none;
+}
+.topUl{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+    
+}
+.leftUl{
+    
+     list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+.topLI:hover {
+   
+  background-color: #111111;
+}
+.leftLI:hover {
+    
+  background-color: #111111;
+}
+li a {
+    
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+div.Shade{
+    top: 0px;
+    width: 1000px;
+    position: fixed;
+    left: 25.2em;
+    background-repeat: no-repeat;
+    background-image: url(2b69e63e85fcdff012a21322f2ffc5417926e7bc.jpg)
+}
+
+div.topdiv{
+    position: fixed;
+    left: 19.2em;;
+/*    padding: 5px;*/
+    top: 15em;
+    width: 1175px;
+    
+}
+.lg{
+     display: block;
+    height: 155px;
+    width: 12.2em;
+   margin: 5px;
+    background-position: 35% 50% !important;
+    text-decoration: none;
+    top: 0;
+    
+}
+canvas {
+   position: fixed;
+    height: 12.2em;
+    width: 12.2em;
+   margin: 5px;
+    background-position: 35% 50% ;
+    text-decoration: none;
+    top: 0;
+    transform: rotate(45deg);
+    box-shadow: 0 0 0 10px #111;
+}
+
+
+ul{list-style-type: none;
+ }
+li{
+    
+    text-decoration: none;
+}
+html {
+  min-height: 100%;
+}
+body {
+  overflow-y: auto;
+    overflow-x: auto;
+}
+ul{
+    
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    max-width: 1200px;
+    left: 19.2em;
+    margin-top:  5em;
+/*
+    margin-left: auto;
+    margin-right: auto;
+*/
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+  }
+  .box {
+    padding: 20px;
+    position: relative;
+    background-color: #000;
+    height: 340px;
+    cursor: pointer;
+  }
+  .box:before {
+      content: '';
+      background: linear-gradient(45deg, rgba(50,43,255,1) 0%, rgba(109,10,61,1) 76%, rgba(128,0,0,1) 100%); 
+      position: absolute;
+      top: -2px;
+      bottom: -2px;
+      right: -2px;
+      left: -2px;
+      z-index: -1;
+      transform: skew(2deg, 3deg);
+  }
+  .sub-title {
+    font-size: 140px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.2;
+    font-family: 'Oswald', sans-serif;
+    transition: 0.3s all linear;
+  }
+  .title {
+      margin-bottom: 10px;
+      text-transform: capitalize;
+  }
+  
+  .box:hover .btn{
+      transform: translateY(0);
+      opacity: 1;
+      visibility: visible;
+  }
+  .box:hover .sub-title{
+      top: 80px;
+
+}
+.ctd{
+     
+     position: fixed;
+    left: 19.2em;;
+    padding: 5px;
+    top: 5.5em;
+    width: 100%;
+     
+     
+    
+    
+}
+.Hovard{
+  position: inherit;
+    left: 39.2em;;
+    padding: 5px;
+    top: 9.5em;
+    width: 100%;  
+}
+.August{
+     
+    left: 19.2em;;
+    padding: 5px;
+    top: 29.5em;
+    width: 100%; 
+}
+div.gallery2{
+    top: 200px;
+    margin-left: 300px;
+}
+div.gallery {
+     top: 200px;
+    margin-left: 300px;
+ 
+}
+
+div.gallery:hover {
+  
+}
+
+div.gallery img {
+  width: 386px;
+  height: 521px;
+}
+
+div.desc {
+    width: auto;
+  padding: 50px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+    top: 15em;
+    margin-top: 18em;
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+/*  display: table;*/
+  clear: both;
+}
