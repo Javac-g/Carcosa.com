@@ -4,6 +4,7 @@
     				<title>Carcosa</title>
                 <link rel="stylesheet" href="./style/style5.min.css">
         <link rel="stylesheet" href="./style/jquery-ui.css">
+		<link rel="stylesheet" href="style.css">
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -162,17 +163,27 @@
         </ul>
     </li>
     <ul class="topnav">
-    <li><a href="First.html">Стать жителем</a></li>
-    <li> <a href="s.html">SCP</a></li>
-       
-    <li><a href="fame.html">The Backrooms/Закулисье</a> </li>
-            <li><a href="">Night Wale</a></li>
-            <li><a href="">Files 21</a></li>
-            <li><a href="">Сотрудничество</a></li>
-            <li><a href=""></a></li>
-            
-        </ul>
-    </li>
+		<li><a href="First.html">Стать жителем</a></li>
+		<li> <a href="s.html">SCP</a></li>
+		   
+		<li><a href="fame.html">The Backrooms/Закулисье</a> </li>
+				<li><a href="">Night Wale</a></li>
+				<li><a href="">Files 21</a></li>
+				<li><a href="">Сотрудничество</a></li>
+				<li><a href=""></a></li>
+				
+			 
+		</li>
+	</ul>
+	
+
+	
+			
+				
+
+
+ 
+  
     <div id="maincolumn">
 
 
@@ -262,29 +273,7 @@
     	
 </div>
 
-<script>
-$(document).ready(function(e){
-	
-	$(".poll-embed").each(function(){
-		
-		var $poll = $(this);
-		
-		$.ajax({
-			   type: "POST",
-			   url: "ajax/polls/get-poll.php",
-			   data: {poll : $(this).attr("poll-id") },
-			   success: function(data)
-			   {
-					$poll.html(data);
-			   },
-			   error: function(){
-				   $poll.html("<p>Unable to retrieve poll. Please refresh and try again.</p>");
-			   }
-			});
-	});
-	
-});
-</script>
+
 <br style="clear:both">
 
 </div>
@@ -293,20 +282,20 @@ $(document).ready(function(e){
 	<div class="footer-tile">
     	<h3>Language</h3>
         <ul>
-        	<li><a href="https://www.thuum.org/dictionary.php?letter=A">Dictionary</a></li>
-            <li><a href="https://www.thuum.org/learn/grammar/alphabet.php">Alphabet</a></li>
-            <li><a href="https://www.thuum.org/library.php">Library</a></li>
-            <li><a href="https://www.thuum.org/learn/">Learn</a></li>
+        	<li><a href="">Dictionary</a></li>
+            <li><a href="">Alphabet</a></li>
+            <li><a href="">Library</a></li>
+            <li><a href="">Learn</a></li>
         </ul>
     </div>
 	<div class="footer-tile tile-middle">
     	<h3>Community</h3>
         <ul>
-        	<li><a href="https://www.thuum.org/forums.php">Forums</a></li>
-            <li><a href="https://www.thuum.org/questions.php">Question Board</a></li>
-            <li><a href="https://www.thuum.org/memberslist.php">Members List</a></li>
-			<li><a href="https://www.thuum.org/privacy-policy.php">Privacy Policy</a></li>
-            <li><a href="https://www.thuum.org/useraccount.php?error=0">Sign up</a></li>
+        	<li><a href="">Forums</a></li>
+            <li><a href="">Question Board</a></li>
+            <li><a href="">Members List</a></li>
+			<li><a href="">Privacy Policy</a></li>
+            <li><a href="https">Sign up</a></li>
         </ul>
     </div>
 	<div class="footer-tile">
@@ -323,7 +312,8 @@ $(document).ready(function(e){
 </div>
 
 
-<div id="screenRecording-controls" style="display: none;"><div id="screenRecording-controls__open-settings-btn"><img src="chrome-extension://hhhbnnlkhiajhlfmedeifcniniopfaoo/images/inject/gear.png"></div><div id="screenRecording-controls__settings"><div id="screenRecording-controls__settings__logo-container"><img src="chrome-extension://hhhbnnlkhiajhlfmedeifcniniopfaoo/images/inject/logo.svg"></div><div id="screenRecording-controls__settings__main-btn" class="screenRecording-controls__settings__btn screenRecording-controls__settings__btn_active"><img src="chrome-extension://hhhbnnlkhiajhlfmedeifcniniopfaoo/images/inject/pause.svg"></div><div id="screenRecording-controls__settings__stop-btn" class="screenRecording-controls__settings__btn"><img src="chrome-extension://hhhbnnlkhiajhlfmedeifcniniopfaoo/images/inject/stop.svg"></div><div id="screenRecording-controls__settings__close-btn" class="screenRecording-controls__settings__btn"><img src="chrome-extension://hhhbnnlkhiajhlfmedeifcniniopfaoo/images/inject/close.svg"></div></div></div>
-<script src="js/simplex-noise.min.js"> </script>
-<script src="js/index.js"></script>
+
+
+
+	
 </body></html>
